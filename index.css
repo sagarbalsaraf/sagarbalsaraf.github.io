@@ -328,6 +328,20 @@ form .btn2{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+    transition: background 0.5s, transform 0.5s;
+
+}
+#btn2{
+    transition: background 0.5s, transform 0.5s;
+
+}
+#btn2:hover{
+    transform: translateY(-10px)
+
+}
+form .btn2:hover{
+    
+    transform: translateY(-10px)
 }
 nav .fas{
     display: none;
