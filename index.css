@@ -193,6 +193,19 @@ nav ul li a:hover::after{
     display: flex;
     gap: 25px;
 }
+/* ---------------------tech-stac---------------- */
+
+#tech-skills{
+    margin: 4% 0%;
+}
+.tech-stac{
+    display: flex;
+    justify-content: space-between;
+
+}
+.tech-stac img{
+    width:50px;
+}
 
 /* ------------------portfolio---- */
 #portfolio{
@@ -213,7 +226,7 @@ nav ul li a:hover::after{
 .work img{
     width: 100%;
     border-radius: 10px;
-    display: block;
+    display:block;
     transition: transform 0.5s;
 }
 .layer{
